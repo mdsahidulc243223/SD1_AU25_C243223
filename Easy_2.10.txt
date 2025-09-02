@@ -1,0 +1,17 @@
+package pelindrom;
+import java.util.*;
+
+public class Pelindrom {
+
+    
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        System.out.println("Enter Your String");
+        String s1=input.nextLine();
+         s1=s1.toUpperCase();
+         System.out.println("Your String is "+s1);
+      
+        
+    }
+    
+}
