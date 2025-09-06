@@ -1,0 +1,17 @@
+
+package avarage;
+import java.util.*;
+
+public class Avarage {
+
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        System.out.println("Enter the Two Value");
+        int A=input.nextInt();
+        int C=input.nextInt();
+        int B=(A+C)/2;
+        System.out.println("The Avarage is "+B);
+       
+    }
+    
+}
