@@ -1,0 +1,18 @@
+
+package iiuc_tv;
+import java.util.*;
+public class IIUc_Tv {
+
+   
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        int N =input.nextInt();
+         int X =input.nextInt();
+      int subscription=(int) Math.ceil((double) N / 6);
+      int totalcost=subscription*X;
+      System.out.println(totalcost);
+      
+     
+    }
+    
+}
