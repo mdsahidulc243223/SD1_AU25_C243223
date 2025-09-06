@@ -1,0 +1,19 @@
+package assignmenty;
+
+import java.util.*;
+
+public class Assignmenty {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter the assignment Starting time ");
+        int t = input.nextInt();
+        if (t < 7) {
+            System.out.println("Complete all assignments on time");
+        } else {
+            System.out.println("Don't Complete all assignments on time");
+        }
+
+    }
+
+}
