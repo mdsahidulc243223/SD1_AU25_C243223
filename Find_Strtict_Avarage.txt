@@ -1,0 +1,23 @@
+package avarage;
+
+import java.util.*;
+
+public class Avarage {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        double a = input.nextDouble();
+        double b = input.nextDouble();
+        int c = input.nextInt();
+        double avg=(a+b)/2;
+        System.out.println(avg);
+        if (avg>c) {
+            System.out.println("Average is gater than C");
+        } else {
+            System.out.println("Average is not gater than C");
+        }
+    
+}
+}
+
+
